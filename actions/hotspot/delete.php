@@ -3,11 +3,11 @@
 $conn = conn();
 $db   = new Database($conn);
 
-$hotspot = $db->single('hotspot',[
+$hotspot = $db->single('hotspots',[
     'id' => $_GET['id']
 ]);
 
-$db->delete('hotspot',[
+$db->delete('hotspots',[
     'id' => $_GET['id']
 ]);
 
