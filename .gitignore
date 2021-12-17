@@ -1,5 +1,5 @@
-config/main.php
-config/menu.php
-config/icon_menu.php
-#migrations/init.sql
+# config/main.php
+# config/menu.php
+# config/icon_menu.php
+# migrations/init.sql
 storage/assets/*
