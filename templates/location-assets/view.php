@@ -95,7 +95,7 @@
                                                 <?php endif ?>
                                             </td>
                                             <td>
-                                                <a href="index.php?r=hotspot/delete&id=<?=$hotspot->id?>"></a>
+                                                <a href="index.php?r=hotspot/delete&id=<?=$hotspot->id?>" class="btn btn-danger">Hapus</a>
                                             </td>
                                         </tr>
                                         <?php endforeach ?>
