@@ -94,7 +94,9 @@
                                                 URL : <?=$hotspot->hs_url?><br>
                                                 <?php endif ?>
                                             </td>
-                                            <td></td>
+                                            <td>
+                                                <a href="index.php?r=hotspot/delete&id=<?=$hotspot->id?>"></a>
+                                            </td>
                                         </tr>
                                         <?php endforeach ?>
                                     </tbody>
@@ -109,7 +111,8 @@
     <script>
     var viewer = pannellum.viewer('panorama', {
         "type": "equirectangular",
-        "panorama": "<?=$asset->image_url?>"
+        "panorama": "<?=$asset->image_url?>",
+        "autoLoad": true
     });
 
     viewer.on('mousedown', function(event) {
