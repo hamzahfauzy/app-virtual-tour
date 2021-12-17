@@ -8,7 +8,7 @@
                         <h5 class="text-white op-7 mb-2">Memanajemen data kategori</h5>
                     </div>
                     <div class="ml-md-auto py-2 py-md-0">
-                        <a href="index.php?r=categories/create" class="btn btn-secondary btn-round">Buat Role</a>
+                        <a href="index.php?r=categories/create" class="btn btn-secondary btn-round">Buat Kategori</a>
                     </div>
                 </div>
             </div>
