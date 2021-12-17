@@ -8,7 +8,7 @@
                         <h5 class="text-white op-7 mb-2">Memanajemen data lokasi</h5>
                     </div>
                     <div class="ml-md-auto py-2 py-md-0">
-                        <a href="index.php?r=locations/create" class="btn btn-secondary btn-round">Buat Pengguna</a>
+                        <a href="index.php?r=locations/create" class="btn btn-secondary btn-round">Buat Lokasi</a>
                     </div>
                 </div>
             </div>
