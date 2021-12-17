@@ -14,6 +14,9 @@ if(startWith($route,'api'))
     header("Access-Control-Allow-Headers: *");
     header("Access-Control-Allow-Methods: *");
     header("Content-Type: application/json");
+
+    if($route == 'api/get-asset')
+        return true;
 }
 
 // check if installation is exists
