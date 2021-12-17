@@ -24,7 +24,7 @@ if(request() == 'POST')
     ]);
 
     set_flash_msg(['success'=>'Aset Lokasi berhasil diupdate']);
-    header('location:index.php?r=location-assets/index&location_id='.$_GET['id']);
+    header('location:index.php?r=location-assets/index&location_id='.$data->location_id);
 }
 
 return compact('data');
