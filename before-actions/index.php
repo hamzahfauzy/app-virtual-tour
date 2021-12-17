@@ -37,7 +37,7 @@ if(!isset($auth->user) && !in_array($route, ['auth/login','installation','panora
     die();
 }
 
-if(!startWith($route,'api') && isset($auth->user) && !isset($auth->user) && $route != 'auth/logout')
+if(!startWith($route,'api') && isset($auth->user) && !isset($auth->user->id) && $route != 'auth/logout')
 {
     header("location:index.php?r=auth/logout");
     die();
